@@ -5,12 +5,12 @@ const config = {
   style: 'mapbox://styles/mapbox/light-v11',
   accessToken:
     'pk.eyJ1IjoiaW4tZHJ6IiwiYSI6ImNsYWZ3NzdkczBtcmMzb28xaG95NGY1NDEifQ.Tat9_7mZSMKUOx4dfm9GhA',
-  CSV: 'https://docs.google.com/spreadsheets/d/1dZPNr8u9DMW41r79DN0y6tntrSjwlxWBcsTZK027HRw/gviz/tq?tqx=out:csv&sheet=fridge_list',
+  CSV: 'https://docs.google.com/spreadsheets/d/1_EWFLf84aydZ4lkeFsRF0RLQoW6hpUGGIi_5MX3LGA8/gviz/tq?tqx=out:csv&sheet=public_hotspots',
   center: [-118.254643, 34.049157],
   zoom: 10,
-  title: 'Mutual Aid Resources',
+  title: 'Public Wi-Fi Access Points',
   description:
-    'test_ This is a tool to find resources in Los Angeles and the surrounding areas. You can find the nearest food pantries, fridges, or shelters with just a few clicks',
+    'With this tool, you can find public and commercial Wi-Fi hotspots to connect to the internet.',
   sideBarInfo: ['Location_Name', 'Address', 'Description', 'Hours'],
   popupInfo: ['Location_Name'],
   filters: [
@@ -61,13 +61,6 @@ const config = {
       columnHeader: 'Clients',
       listItems: [
         'Adults',
-        'Disabled',
-        'Homeless',
-        'Immigrants/Refugees',
-        'Low Income',
-        'Seniors',
-        'Youth: Pre-teen',
-        'Youth: Teen',
       ],
     },
   ],
