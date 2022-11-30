@@ -11,8 +11,8 @@ const config = {
   title: 'Public Wi-Fi Access Points',
   description:
     'With this tool, you can find public and commercial Wi-Fi hotspots to connect to the internet.',
-  sideBarInfo: ['Location_Name', 'Address', 'Description', 'Hours'],
-  popupInfo: ['Location_Name'],
+  sideBarInfo: ['facility_name', 'street_address', 'url', 'outdoor_access'],
+  popupInfo: ['facility_name'],
   filters: [
     {
       type: 'dropdown',
